@@ -1,4 +1,5 @@
-import React, { useState, useEffect, FormEvent, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import type { FormEvent } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import bgImageC from './assets/backgroundC.jpeg';
